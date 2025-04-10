@@ -1,0 +1,33 @@
+
+Data Engineer
+Data Engineer
+Wellstar Health SystemWellstar Health System
+Jan 2024 - Present · 1 yr 4 mosJan 2024 to Present · 1 yr 4 mos
+Built and deployed a real-time machine learning-powered recommendation engine, integrating customer browsing history, past purchases, and engagement data to personalize retail product suggestions. The model increased click-through rates on recommended products by 22% and led to a 5% increase in upsell revenue.
+Developed an end-to-end experimentation framework, applying Bayesian optimization techniques to dynamically adjust recommendation strategies based on real-time user interactions. This approach resulted in a 12% improvement in recommendation accuracy, ensuring higher user engagement with suggested products.
+Designed a scalable ETL pipeline in Spark and Redshift, aggregating multi-source data streams (web interactions, app engagements, transaction records) to ensure seamless integration for recommendation modeling. The automation reduced data processing time by 35%, enabling real-time personalization updates.
+Created visualization dashboards in Tableau and Power BI, allowing product and marketing teams to track the effectiveness of recommendation strategies. This data-driven approach empowered teams to refine promotional campaigns and personalized offers, enhancing the customer shopping experience.
+Conducted experimentation and A/B testing to assess the impact of personalized commerce experiences, driving continuous improvement in customer interaction models.Built and deployed a real-time machine learning-powered recommendation engine, integrating customer browsing history, past purchases, and engagement data to personalize retail product suggestions. The model increased click-through rates on recommended products by 22% and led to a 5% increase in upsell revenue. Developed an end-to-end experimentation framework, applying Bayesian optimization techniques to dynamically adjust recommendation strategies based on real-time user interactions. This approach resulted in a 12% improvement in recommendation accuracy, ensuring higher user engagement with suggested products. Designed a scalable ETL pipeline in Spark and Redshift, aggregating multi-source data streams (web interactions, app engagements, transaction records) to ensure seamless integration for recommendation modeling. The automation reduced data processing time by 35%, enabling real-time personalization updates. Created visualization dashboards in Tableau and Power BI, allowing product and marketing teams to track the effectiveness of recommendation strategies. This data-driven approach empowered teams to refine promotional campaigns and personalized offers, enhancing the customer shopping experience. Conducted experimentation and A/B testing to assess the impact of personalized commerce experiences, driving continuous improvement in customer interaction models.
+Python Development, SQL and +2 skills
+Tesco logo
+Data Analyst 
+Data Analyst 
+TescoTesco
+Aug 2020 - Aug 2022 · 2 yrs 1 moAug 2020 to Aug 2022 · 2 yrs 1 mo
+Contributed to the development of embedded software solutions using C++ and Python, contributing to a 20% improvement in system processing efficiency.
+
+Gained hands-on experience with Linux, networking, and cybersecurity fundamentals, troubleshooting over 10 critical network issues during development phases.
+
+Worked on database management and query optimization, achieving a 30% reduction in average query response time and enhancing overall application performance.Contributed to the development of embedded software solutions using C++ and Python, contributing to a 20% improvement in system processing efficiency. Gained hands-on experience with Linux, networking, and cybersecurity fundamentals, troubleshooting over 10 critical network issues during development phases. Worked on database management and query optimization, achieving a 30% reduction in average query response time and enhancing overall application performance.
+Gifteria logo
+Analyst Intern
+Analyst Intern
+GifteriaGifteria
+Jan 2019 - Oct 2019 · 10 mosJan 2019 to Oct 2019 · 10 mos
+Conducted data extraction, transformation, and analysis to generate actionable business insights, improving decision-making efficiency.
+
+Designed Power BI dashboards, enhancing data visualization and providing stakeholders with actionable insights.
+
+Enhanced SQL queries for data retrieval and reporting, boosted query efficiency by 30% and improving performance.
+
+Identified trends and patterns in business data, providing key recommendations that improved operational efficiency and strategy planning.
