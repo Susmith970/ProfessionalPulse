@@ -55,7 +55,7 @@ const Navbar = () => {
           transition={{ type: "spring", stiffness: 500 }}
         >
           <Link href="/" className="text-2xl font-bold text-primary font-space">
-            JD<span className="text-secondary">.</span>
+            SP<span className="text-secondary">.</span>
           </Link>
         </motion.div>
 

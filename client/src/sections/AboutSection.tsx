@@ -4,7 +4,7 @@ import CodeSnippet from "@/components/CodeSnippet";
 
 const codeSnippet = `<span class="text-secondary">def</span> <span class="text-accent">about_me</span>():
     <span class="text-primary">return</span> {
-        <span class="text-primary">"name"</span>: <span class="text-secondary">"John Doe"</span>,
+        <span class="text-primary">"name"</span>: <span class="text-secondary">"Susmith Reddy"</span>,
         <span class="text-primary">"role"</span>: <span class="text-secondary">"Data Engineer"</span>,
         <span class="text-primary">"languages"</span>: [<span class="text-secondary">"Python"</span>, <span class="text-secondary">"SQL"</span>, <span class="text-secondary">"C++"</span>],
         <span class="text-primary">"tools"</span>: [<span class="text-secondary">"Spark"</span>, <span class="text-secondary">"Redshift"</span>, <span class="text-secondary">"Tableau"</span>],
@@ -26,7 +26,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <p className="text-muted-foreground mb-4">
-              Hello! I'm John, a data engineer with a passion for building efficient data systems and extracting meaningful insights.
+              Hello! I'm Susmith, a data engineer with a passion for building efficient data systems and extracting meaningful insights.
               My journey in the world of data began during my internship at Gifteria, where I discovered my love for
               transforming raw data into actionable intelligence.
             </p>

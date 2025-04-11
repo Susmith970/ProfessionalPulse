@@ -29,7 +29,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          <span className="glitch-effect" data-text="John Doe">John Doe</span>
+          <span className="glitch-effect" data-text="Susmith Reddy">Susmith Reddy</span>
         </motion.h1>
         
         <motion.h2 

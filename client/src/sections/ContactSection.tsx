@@ -82,7 +82,7 @@ const ContactSection = () => {
           </motion.a>
           
           <motion.a 
-            href="mailto:john.doe@example.com" 
+            href="mailto:susmithreddyms@gmail.com" 
             className="text-muted-foreground hover:text-primary transition-colors"
             whileHover={{ y: -5 }}
             transition={{ type: "spring", stiffness: 500 }}
