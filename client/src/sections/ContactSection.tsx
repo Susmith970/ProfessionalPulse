@@ -49,7 +49,7 @@ const ContactSection = () => {
           viewport={{ once: true }}
         >
           <motion.a 
-            href="https://github.com/" 
+            href = "https://github.com/Susmith970" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -60,7 +60,7 @@ const ContactSection = () => {
           </motion.a>
           
           <motion.a 
-            href="https://linkedin.com/in/" 
+            href="www.linkedin.com/in/susmith-p-06871716b" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
