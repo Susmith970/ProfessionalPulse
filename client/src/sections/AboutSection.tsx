@@ -56,7 +56,7 @@ const AboutSection = () => {
               <div className="absolute inset-0 rounded border-2 border-primary group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-300"></div>
               <div className="relative z-10 w-64 h-64 rounded bg-muted overflow-hidden">
               <img
-                    src="/IMG_7641 3.jpg"  // Replace with actual path or URL
+                    src="/IMG_7641.jpg"  // Replace with actual path or URL
                     alt="Susmith Reddy"
                     className="w-full h-full object-cover rounded"
               />
