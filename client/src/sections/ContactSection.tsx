@@ -60,7 +60,7 @@ const ContactSection = () => {
           </motion.a>
           
           <motion.a 
-            href="www.linkedin.com/in/susmith-p-06871716b" 
+            href= "https://linkedin.com/in/susmith-p-06871716b" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
