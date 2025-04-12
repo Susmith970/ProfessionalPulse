@@ -99,7 +99,7 @@ export const projects: Project[] = [
     description: "An advanced data engineering solution designed to seamlessly integrate, process, and monitor data from multiple sources in real-time. The platform implements sophisticated data quality controls, anomaly detection algorithms, and end-to-end observability to ensure reliable data pipelines for critical business operations.",
     tags: ["Python", "Streamlit", "Spark", "MLflow", "Kafka"],
     links: {
-      github: "https://github.com/username/omnistream",
+      github: "https://github.com/Susmith970/OmniStream-Multi-source-Data-Processing-Pipeline.git",
       live: "https://omnistream.streamlit.app"
     },
     icon: "📊"
