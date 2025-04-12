@@ -54,9 +54,13 @@ const AboutSection = () => {
           >
             <div className="relative group w-64 h-64">
               <div className="absolute inset-0 rounded border-2 border-primary group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-300"></div>
-              <div className="relative z-10 w-64 h-64 rounded bg-muted flex items-center justify-center overflow-hidden">
-                <i className='bx bxs-user-circle text-8xl text-primary'></i>
-              </div>
+              <div className="relative z-10 w-64 h-64 rounded bg-muted overflow-hidden">
+              <img
+                    src="/"  // Replace with actual path or URL
+                    alt="Susmith Reddy"
+                    className="w-full h-full object-cover rounded"
+              />
+            </div>
             </div>
           </motion.div>
         </div>
@@ -66,3 +70,6 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
+
+
