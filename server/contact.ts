@@ -24,6 +24,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       `,
     });
 
+    console.log("Sending email with data:", { name, email, subject, message });
+    console.log("Using API key:", process.env.RESEND_API_KEY);
+
     return res.status(200).json({ success: true });
   } catch (error) {
     return res.status(500).json({ error: 'Email not sent' });
