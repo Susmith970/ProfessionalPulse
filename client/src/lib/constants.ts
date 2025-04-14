@@ -115,7 +115,7 @@ export const projects: Project[] = [
       github: "https://github.com/Susmith970/OmniStream-Multi-source-Data-Processing-Pipeline.git",
       live: "https://omnistream.streamlit.app"
     },
-    icon: "/logo.svg"
+    icon: "/images/logo.svg"
   },
   {
     title: "NeoHeaven",
