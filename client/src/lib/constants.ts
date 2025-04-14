@@ -62,22 +62,24 @@ export const experiences: Experience[] = [
     company: "Wellstar Health System",
     period: "Jan 2024 - Present",
     description: [
-      "Built and deployed a real-time machine learning-powered recommendation engine, integrating customer browsing history, past purchases, and engagement data to personalize retail product suggestions.",
-      "Developed an end-to-end experimentation framework, applying Bayesian optimization techniques to dynamically adjust recommendation strategies based on real-time user interactions.",
-      "Designed a scalable ETL pipeline in Spark and Redshift, aggregating multi-source data streams."
+      "Designed and deployed a real-time machine learning-driven recommendation engine tailored to patient engagement, integrating electronic health record (EHR) data, historical appointment patterns, and behavioral analytics to personalize care reminders and health service suggestions.",
+	"Developed a comprehensive experimentation framework leveraging Bayesian optimization to adaptively test and refine patient outreach strategies, improving response rates and healthcare outcomes.",
+	"Built and optimized a scalable ETL pipeline using Apache Spark and Amazon Redshift to consolidate multi-source healthcare data, including lab results, device telemetry, scheduling systems, and third-party claims data, ensuring high availability and compliance with HIPAA and internal governance standards.",
+	"Collaborated with clinical informatics, data science, and population health teams to ensure solutions aligned with organizational goals, supported predictive modeling initiatives, and enabled advanced analytics at scale."
     ],
-    skills: ["Python", "SQL", "Spark", "Redshift"]
+    skills: ["Python", "SQL","Python", "SQL", "Apache Spark", "Amazon Redshift", "Real-Time Healthcare Analytics", "ML Pipelines"," Bayesian Optimization", "HIPAA-Compliant Data Engineering", "Scalable ETL Architecture"]
   },
   {
     title: "Data Engineer",
     company: "CBRE Group",
     period: "Sep 2022 - Dec 2023",
     description: [
-      "Built and deployed a real-time machine learning-powered recommendation engine, integrating customer browsing history, past purchases, and engagement data to personalize retail product suggestions.",
-      "Developed an end-to-end experimentation framework, applying Bayesian optimization techniques to dynamically adjust recommendation strategies based on real-time user interactions.",
-      "Designed a scalable ETL pipeline in Spark and Redshift, aggregating multi-source data streams."
+      "Spearheaded the development and deployment of a real-time, ML-driven recommendation engine for commercial real estate listings, leveraging user behavior, engagement metrics, and historical leasing data to deliver personalized property suggestions across CBRE’s digital platforms.",
+	    "Architected and implemented a robust experimentation framework using Bayesian optimization to continuously refine recommendation logic based on live A/B testing outcomes and user feedback loops.",
+	    "Engineered and optimized a highly scalable ETL pipeline using Apache Spark and Amazon Redshift, ingesting and transforming large volumes of structured and semi-structured data from internal systems, IoT devices, and third-party sources to support analytics, pricing, and forecasting models.",
+	    "Collaborated cross-functionally with data scientists, software engineers, and business analysts to align data engineering efforts with strategic objectives, ensuring high data quality, performance, and compliance with data governance standards."
     ],
-    skills: ["Python", "SQL", "Spark", "Redshift"]
+    skills: ["Python", "SQL", "Spark", "Redshift","Real-Time Data Processing", "ML Pipelines", "Experimentation Platforms", "Scalable ETL", "Data Architecture"]
   },
   {
     title: "Data Analyst",
