@@ -69,9 +69,20 @@ export const experiences: Experience[] = [
     skills: ["Python", "SQL", "Spark", "Redshift"]
   },
   {
+    title: "Data Engineer",
+    company: "CBRE Group",
+    period: "Sep 2022 - Dec 2023",
+    description: [
+      "Built and deployed a real-time machine learning-powered recommendation engine, integrating customer browsing history, past purchases, and engagement data to personalize retail product suggestions.",
+      "Developed an end-to-end experimentation framework, applying Bayesian optimization techniques to dynamically adjust recommendation strategies based on real-time user interactions.",
+      "Designed a scalable ETL pipeline in Spark and Redshift, aggregating multi-source data streams."
+    ],
+    skills: ["Python", "SQL", "Spark", "Redshift"]
+  },
+  {
     title: "Data Analyst",
     company: "Tesco",
-    period: "Aug 2020 - Aug 2022",
+    period: "May 2021 - May 2022",
     description: [
       "Contributed to the development of embedded software solutions using C++ and Python, contributing to a 20% improvement in system processing efficiency.",
       "Gained hands-on experience with Linux, networking, and cybersecurity fundamentals, troubleshooting over 10 critical network issues during development phases.",
@@ -82,7 +93,7 @@ export const experiences: Experience[] = [
   {
     title: "Analyst Intern",
     company: "Gifteria",
-    period: "Jan 2019 - Oct 2019",
+    period: "Mar 2020 - Dec 2020",
     description: [
       "Conducted data extraction, transformation, and analysis to generate actionable business insights, improving decision-making efficiency.",
       "Designed Power BI dashboards, enhancing data visualization and providing stakeholders with actionable insights.",
