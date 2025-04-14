@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt, FaBuilding, FaChartLine, FaDatabase } from "react-icons/fa";
 import { Project } from "@/types";
+import Image from "next/image";
 
 interface ProjectCardProps {
   project: Project;
@@ -14,21 +15,30 @@ const ProjectCard = ({ project, isFeature = false }: ProjectCardProps) => {
   const { title, description, tags, links, icon } = project;
   
   // Render the appropriate icon based on string identifier
-  const renderIcon = () => {
-     if (project.image) {
+const renderIcon = () => {
+  if (project.image) {
     return (
       <img 
         src={project.image} 
-        alt={`${title} thumbnail`} 
-        className="w-full h-full object-cover"
+        alt={`${project.title} thumbnail`} 
+        width={300}
+        height={200}
+        className="rounded-lg object-cover"
       />
     );
   }
-    if (icon === "FaBuilding") return <FaBuilding />;
-    if (icon === "FaChartLine") return <FaChartLine />;
-    if (icon === "FaDatabase") return <FaDatabase />;
-    return icon; // Fallback to text if it's not a known icon
-  };
+
+  switch (icon) {
+    case "FaBuilding":
+      return <FaBuilding />;
+    case "FaChartLine":
+      return <FaChartLine />;
+    case "FaDatabase":
+      return <FaDatabase />;
+    default:
+      return icon; // fallback text/icon string
+  }
+};
 
   if (isFeature) {
     return (
