@@ -1,6 +1,8 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
-import { storage } from "./storage";
+import { Resend } from "resend"; // ✅ import Resend
+
+const resend = new Resend(process.env.RESEND_API_KEY); // ✅ load API key
 
 interface ContactFormData {
   name: string;
@@ -10,28 +12,36 @@ interface ContactFormData {
 }
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Contact form API route
   app.post("/api/contact", async (req, res) => {
     try {
       const contactData: ContactFormData = req.body;
-      
-      // Validate the contact form data
+
       if (!contactData.name || !contactData.email || !contactData.subject || !contactData.message) {
         return res.status(400).json({ message: "All fields are required" });
       }
-      
-      // In a real application, you would save this to a database or send an email
-      // For this example, we'll just return a success response
-      
+
       console.log("Contact form submission:", contactData);
-      
-      res.status(200).json({ 
-        message: "Message received successfully",
-        timestamp: new Date().toISOString() 
+
+      // ✅ Send email using Resend
+      await resend.emails.send({
+        from: 'Susmith <onboarding@resend.dev>', // 👈 You can replace with verified email
+        to: 'susmithreddyms@gmail.com',
+        subject: `[Contact] ${contactData.subject}`,
+        html: `
+          <p><strong>Name:</strong> ${contactData.name}</p>
+          <p><strong>Email:</strong> ${contactData.email}</p>
+          <p><strong>Message:</strong></p>
+          <p>${contactData.message}</p>
+        `,
+      });
+
+      return res.status(200).json({
+        message: "Message received and email sent successfully",
+        timestamp: new Date().toISOString(),
       });
     } catch (error) {
       console.error("Error processing contact form:", error);
-      res.status(500).json({ message: "Internal server error" });
+      return res.status(500).json({ message: "Internal server error" });
     }
   });
 
