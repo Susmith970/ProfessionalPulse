@@ -32,7 +32,8 @@ const AboutSection = () => {
             </p>
             <p className="text-muted-foreground mb-4">
               Fast-forward to today, and I've had the privilege of working at various organizations, from retail giants like&nbsp;
-              <a href="#experience" className="text-primary hover:underline">Tesco</a> to healthcare innovators like&nbsp;
+              <a href="#experience" className="text-primary hover:underline">Tesco</a> to   commercial real estate services like&nbsp;
+              <a href="#experience" className="text-primary hover:underline">CBRE Group</a> to  healthcare innovators  like&nbsp;
               <a href="#experience" className="text-primary hover:underline">Wellstar Health System</a>. My focus is on creating scalable
               data pipelines and implementing machine learning solutions that drive business value.
             </p>
