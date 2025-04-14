@@ -34,7 +34,8 @@ export interface Project {
     github?: string;
     live?: string;
   };
-  icon: string;
+  icon?: string;
+  image?: string;
 }
 
 export interface ContactFormData {
