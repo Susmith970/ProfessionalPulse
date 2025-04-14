@@ -15,6 +15,15 @@ const ProjectCard = ({ project, isFeature = false }: ProjectCardProps) => {
   
   // Render the appropriate icon based on string identifier
   const renderIcon = () => {
+     if (project.image) {
+    return (
+      <img 
+        src={project.image} 
+        alt={`${title} thumbnail`} 
+        className="w-full h-full object-cover"
+      />
+    );
+  }
     if (icon === "FaBuilding") return <FaBuilding />;
     if (icon === "FaChartLine") return <FaChartLine />;
     if (icon === "FaDatabase") return <FaDatabase />;
