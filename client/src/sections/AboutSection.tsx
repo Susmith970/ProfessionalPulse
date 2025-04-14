@@ -55,7 +55,7 @@ const AboutSection = () => {
           >
             <div className="relative group w-64 h-64">
               <div className="absolute inset-0 rounded border-2 border-primary group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-300"></div>
-              <div className="relative z-10 w-64 h-64 rounded bg-muted overflow-hidden">
+              <div className="relative group w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
               <img
                     src="/images/IMG_7641.jpg"  // Replace with actual path or URL
                     alt="Susmith Reddy"
