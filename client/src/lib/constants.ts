@@ -58,19 +58,23 @@ export const certifications: Certification[] = [
 // Experience
 export const experiences: Experience[] = [
   {
-    title: "Data Engineer",
+    title: "Infrastructure Engineer",
     company: "Wellstar Health System",
     period: "Jan 2024 - Present",
     description: [
-      "Designed and deployed a real-time machine learning-driven recommendation engine tailored to patient engagement, integrating electronic health record (EHR) data, historical appointment patterns, and behavioral analytics to personalize care reminders and health service suggestions.",
-	"Developed a comprehensive experimentation framework leveraging Bayesian optimization to adaptively test and refine patient outreach strategies, improving response rates and healthcare outcomes.",
-	"Built and optimized a scalable ETL pipeline using Apache Spark and Amazon Redshift to consolidate multi-source healthcare data, including lab results, device telemetry, scheduling systems, and third-party claims data, ensuring high availability and compliance with HIPAA and internal governance standards.",
-	"Collaborated with clinical informatics, data science, and population health teams to ensure solutions aligned with organizational goals, supported predictive modeling initiatives, and enabled advanced analytics at scale."
+	"Led the end-to-end design and deployment of a robust, HIPAA-compliant, cloud-native infrastructure using AWS S3, Redshift, Glue, EMR, Lambda, and Step Functions, enabling ingestion and processing of over 1TB/day of healthcare data across various modalities and departments.",
+    "Deployed and managed Dremio on Amazon EKS (Kubernetes), including executor autoscaling, helm-based provisioning, and role-based access control integration with Okta, reducing query response times by over 40% and providing seamless access to curated data in Snowflake and S3.",
+    "Built fault-tolerant, real-time streaming pipelines using Apache Spark Structured Streaming, AWS Kinesis Firehose, and Glue Streaming ETL, with built-in checkpointing, backpressure management, and schema validation to handle critical health event data in near real time.",
+    "Implemented Terraform modules and AWS CDK stacks to automate the provisioning of VPCs, IAM roles, subnets, security groups, and Dremio EKS clusters-ensuring repeatable, auditable, and consistent infrastructure deployment across dev, test, and prod environments.",
+    "Designed and maintained observability stacks using Prometheus, Grafana, and CloudWatch Metrics and Alarms, building dashboards and anomaly detection scripts in Python and SQL for data volume changes, processing errors, and pipeline latency anomalies.",
+    "Collaborated with security and compliance teams to enforce least privilege access via fine-grained IAM policies, configured network access control lists (ACLs), and implemented encryption in transit and at rest, ensuring full HIPAA compliance across all services.",
+    "Spearheaded cost optimization efforts across compute and storage infrastructure by right-sizing EMR clusters, leveraging Spot Instances, and optimizing Dremio reflections and dataset curation-leading to a 45% reduction in infrastructure cost and enhanced data freshness SLAs.",
+    "Facilitated CI/CD automation using GitHub Actions for infrastructure updates, Dremio reflection refresh jobs, and Kubernetes deployment rollouts, reducing human error and improving rollout times from hours to under 10 minutes."
     ],
     skills: ["Python", "SQL","Python", "SQL", "Apache Spark", "Amazon Redshift", "Real-Time Healthcare Analytics", "ML Pipelines"," Bayesian Optimization", "HIPAA-Compliant Data Engineering", "Scalable ETL Architecture"]
   },
   {
-    title: "Data Engineer",
+    title: "Platform Engineer",
     company: "CBRE Group",
     period: "Sep 2022 - Dec 2023",
     description: [
@@ -82,7 +86,7 @@ export const experiences: Experience[] = [
     skills: ["Python", "SQL", "Spark", "Redshift","Real-Time Data Processing", "ML Pipelines", "Experimentation Platforms", "Scalable ETL", "Data Architecture"]
   },
   {
-    title: "Data Analyst",
+    title: "Real-Time Data Engineer",
     company: "Tesco",
     period: "May 2021 - May 2022",
     description: [
@@ -93,7 +97,7 @@ export const experiences: Experience[] = [
     skills: ["C++", "Python", "SQL", "Linux"]
   },
   {
-    title: "Analyst Intern",
+    title: "Data Engineer",
     company: "Gifteria",
     period: "Mar 2020 - Dec 2020",
     description: [
